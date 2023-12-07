@@ -21,9 +21,6 @@ void RUN(char * cmd)
 
   Keyboard.releaseAll();
 
-
-
-
 }
 
 void setup()
@@ -41,9 +38,6 @@ void setup()
 
 void loop()
 {
- 
-  
   Serial.write("Hello?");
-  
   delay(15000);
 }
