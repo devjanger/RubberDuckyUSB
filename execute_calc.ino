@@ -4,12 +4,14 @@
 
 void RUN(char * cmd)
 {
+
+  delay(1000);
   
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
   Keyboard.releaseAll();
 
-  delay(100);
+  delay(1000);
 
  
   Keyboard.print(cmd);
